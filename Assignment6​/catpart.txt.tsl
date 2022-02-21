@@ -1,0 +1,912 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<error>
+   No or wrong operation picked :  true
+
+
+Test Case 3  		<error>
+   Length of 'from' string :  Empty
+
+
+Test Case 4  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 5  		(Key = 2.1.1.1.1.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 6  		(Key = 2.1.1.1.1.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 7  		(Key = 2.1.1.1.1.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 8  		(Key = 2.1.1.1.1.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 9  		(Key = 2.1.1.1.2.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 10 		(Key = 2.1.1.1.2.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 11 		(Key = 2.1.1.1.2.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 12 		(Key = 2.1.1.1.2.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 13 		(Key = 2.1.1.2.1.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 14 		(Key = 2.1.1.2.1.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 15 		(Key = 2.1.1.2.1.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 16 		(Key = 2.1.1.2.1.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 17 		(Key = 2.1.1.2.2.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 18 		(Key = 2.1.1.2.2.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 19 		(Key = 2.1.1.2.2.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 20 		(Key = 2.1.1.2.2.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 21 		(Key = 2.1.2.1.1.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 22 		(Key = 2.1.2.1.1.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 23 		(Key = 2.1.2.1.1.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 24 		(Key = 2.1.2.1.1.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 25 		(Key = 2.1.2.1.2.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 26 		(Key = 2.1.2.1.2.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 27 		(Key = 2.1.2.1.2.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 28 		(Key = 2.1.2.1.2.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 29 		(Key = 2.1.2.2.1.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 30 		(Key = 2.1.2.2.1.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 31 		(Key = 2.1.2.2.1.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 32 		(Key = 2.1.2.2.1.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 33 		(Key = 2.1.2.2.2.2.2.1.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 34 		(Key = 2.1.2.2.2.2.2.1.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 35 		(Key = 2.1.2.2.2.2.2.2.1.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 36 		(Key = 2.1.2.2.2.2.2.2.2.2.2.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  true
+
+
+Test Case 37 		(Key = 2.2.1.1.1.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 38 		(Key = 2.2.1.1.1.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 39 		(Key = 2.2.1.1.1.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 40 		(Key = 2.2.1.1.1.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 41 		(Key = 2.2.1.1.2.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 42 		(Key = 2.2.1.1.2.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 43 		(Key = 2.2.1.1.2.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 44 		(Key = 2.2.1.1.2.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 45 		(Key = 2.2.1.2.1.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 46 		(Key = 2.2.1.2.1.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 47 		(Key = 2.2.1.2.1.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 48 		(Key = 2.2.1.2.1.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 49 		(Key = 2.2.1.2.2.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 50 		(Key = 2.2.1.2.2.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 51 		(Key = 2.2.1.2.2.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 52 		(Key = 2.2.1.2.2.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 53 		(Key = 2.2.2.1.1.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 54 		(Key = 2.2.2.1.1.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 55 		(Key = 2.2.2.1.1.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 56 		(Key = 2.2.2.1.1.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 57 		(Key = 2.2.2.1.2.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 58 		(Key = 2.2.2.1.2.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 59 		(Key = 2.2.2.1.2.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 60 		(Key = 2.2.2.1.2.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 61 		(Key = 2.2.2.2.1.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 62 		(Key = 2.2.2.2.1.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 63 		(Key = 2.2.2.2.1.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 64 		(Key = 2.2.2.2.1.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 65 		(Key = 2.2.2.2.2.2.2.1.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 66 		(Key = 2.2.2.2.2.2.2.1.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  true
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 67 		(Key = 2.2.2.2.2.2.2.2.1.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+
+
+Test Case 68 		(Key = 2.2.2.2.2.2.2.2.2.2.1.)
+   Size                                         :  Not empty
+   Operation b                                  :  -b_Disabled
+   Operation f                                  :  -f_Disabled
+   Operation l                                  :  -l_Disabled
+   Operation i                                  :  -i_Disabled
+   No or wrong operation picked                 :  false
+   Length of 'from' string                      :  Non-Empty
+   Has 'from' string                            :  false
+   Length of 'to' String                        :  Non-Empty
+   Presence of a file corresponding to the name :  Present
+   Back up file copy                            :  false
+

@@ -1,0 +1,44 @@
+# File
+    Size:
+        Empty.					[single][property emptyfile] 
+        Not empty.
+        
+# OPT
+    Operation b:
+        -b.                     [if !emptyfile][property b_enb]
+        -b_Disabled.            [property b_dis]
+    Operation f:
+        -f.                     [if !emptyfile][property f_enb]
+        -f_Disabled.            [property f_dis]
+    Operation l:
+        -l.                     [if !emptyfile][property l_enb]
+        -l_Disabled.            [property l_dis]
+    Operation i:
+        -i.                     [if !emptyfile][property i_enb]
+        -i_Disabled.            [property i_dis]
+    No or wrong operation picked:
+        true.                   [error][if (b_dis && f_dis && l_dis && i_dis) || ((b_dis && f_dis && l_dis && i_dis) && !(b_enb && f_enb && l_enb && i_enb))]
+        false.                  [if !emptyfile]
+        
+# String being replaced
+    Length of 'from' string:
+        Empty.                  [error]
+        Non-Empty.
+    Has 'from' string:
+        true.
+        false.
+        
+# String that will replace
+    Length of 'to' String:
+        Empty.                  
+        Non-Empty.
+    
+# Filename
+    Presence of a file corresponding to the name:
+        Not present.				[error]
+        Present.
+        
+# File backup copy
+    Back up file copy:
+        false.                  [if !b_enb]
+        true.                   [if b_enb]
